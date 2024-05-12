@@ -54,6 +54,7 @@ if buy_tires.lower() == "yes":
     phone_number = input("Please enter your phone number: ")
     with open("volumes.txt", "a") as file:
         file.write(f"{phone_number}\n")
+        print("Thank you")
         print()
 elif  buy_tires.lower() == "no":
         print("Thank you")
